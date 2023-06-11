@@ -19,12 +19,12 @@ def max_num_3_values(num1, num2, num3):
     max_num = num1
     if num2 > num1:
         max_num = num2
-    elif num3 > num1:
+    if num3 > num2:
         max_num = num3
 
     return f'The max number from {num1}, {num2} and {num3} is {max_num}.'
 
-print(max_num_3_values(20,150,50))
+print(max_num_3_values(20,150,500))
 
 
 # Question #3 counting odd and even digits of the whole number.
